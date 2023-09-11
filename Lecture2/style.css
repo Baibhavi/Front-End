@@ -1,0 +1,28 @@
+/* Attribute selector */
+a[href="https://facebook.com/"]{
+    color: brown;
+}
+
+/*Advance selectors*/
+/* div p{
+    color: darkmagenta;
+}
+p.para{
+    color: navy;
+} */
+div.para p{
+    color: blueviolet;
+}
+
+/* Child Selector */
+ul>div>li{
+    color: blue;
+}
+
+/*  Immediate Selector  */
+li+li{
+    border: 2px solid pink;
+}
+li+li+li{
+    color: aquamarine;
+}
