@@ -10,6 +10,7 @@ a[href="https://facebook.com/"]{
 p.para{
     color: navy;
 } */
+/*Descendent selectors*/
 div.para p{
     color: blueviolet;
 }

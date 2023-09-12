@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Pixel*/
+/* div{
+    height: 100px;
+    width: 200px;
+} */
+
+/* Viewport */
+div{
+    height: 100vh;
+    background-color: blueviolet;
+}
