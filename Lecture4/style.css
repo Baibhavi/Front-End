@@ -8,8 +8,31 @@
     width: 200px;
 } */
 
-/* Viewport */
-div{
+/*Css units - 
+1. Pixel - pixel is used when we want fixed height and width;
+2. Viewport - used when we want space wrt to website (vh,vw);
+3. Percentage - takes space wrt to parent*/
+
+/*viewport*/
+/* div{
     height: 100vh;
     background-color: blueviolet;
+    
+} */
+div.container{
+    /* height: 100px;
+    width: 100px; */
+    background-color: blue;
+    /* overflow: auto; */
+    /* height: 120vh; */
+    height: 60vh;
+    width: 50vw;
 }
+/*percentage*/
+div.container div.child{
+    background-color: blueviolet;
+    height: 40%;
+    width: 50%;
+}
+
+
