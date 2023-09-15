@@ -1,3 +1,16 @@
+/*by default font size is 16px
+1em  - font size will be same as parent's font size
+rem - work wrt to root element which is <html>tag*/
 div p{
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    /* font-size: 10px; */
+    /* font-size: 1rem; */
 }
+/* div{
+    font-size: 25px;
+} */
+/* html{
+    font-size: 20px;
+} */
