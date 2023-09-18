@@ -1,0 +1,19 @@
+.child1{
+    height: 200px;
+    width: 100px;
+    border: 2px solid red;
+    float: left;
+}
+.container{
+    border: 2px solid blue;
+}
+.child2{
+    height: 300px;
+    width: 100px;
+    border: 2px solid red;
+    float: right;
+}
+.clearfix{
+    /* clear: both; */
+    clear: left;
+}
