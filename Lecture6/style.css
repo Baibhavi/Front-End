@@ -1,0 +1,41 @@
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    float: left;
+}
+
+/* relative position:- wrt its original position. its original position cannot be occupied by another div*/
+#child3{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+/*absolute:- wrt first parent's position when parent's position is defined otherwise no parent then wrt viewport/body */
+#child2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    /* left: 0px; */
+}
+
+.container{
+    height: 1200vh;
+    width: 60vw;
+    border: 2px solid green;
+    position: relative;
+}
+
+/*fixed:- fixed wrt to viewport*/
+#child1{
+    position: fixed;
+    right: 0;
+}
+
+/*Sticky*/
+#child4{
+    margin-top: 500px;
+    position: sticky;
+    top: 0px;
+}
