@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 75px;
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.logo{
+    margin-left: 100px;
+}
+.links{
+    margin-right: 100px;
+}
+.logo img{
+    height: 35px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    margin-right: 17px;
+}
+#spcl-link{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.main{
+    height: 447px;
+    background-color: #ffc017;
+}
