@@ -24,7 +24,7 @@
     left: 300px;
     animation: rocketmove 2s infinite,
             rotaterocket 1s ease-in-out 4.5s forwards,
-            launch 3s ease-in-out 6.5s forwards ;
+            launch 2s ease-in-out 6.5s forwards ;
 }
 .rocket img, .astronaut img{
         width: 100%;

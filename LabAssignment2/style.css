@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 40px;
+    background-color: black;
+    display: block;
+    justify-content:left;
+    align-items: center;
+    padding-top: 5px;
+}
+.links{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+.navlinks{
+    height: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.navlinks:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+}
+.main{
+    margin-top: 40px;
+    height: 600px;
+    position: relative;
+    background-image: url(la.jpg);
+    width: 100%;
+    color: white;
+    text-align:center;
+}
+.main h3{
+    position: absolute;
+    bottom: 50px;
+    left: 44%;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.main p{
+    position: absolute;
+    bottom: 10px;
+    left: 38%;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.description{
+    text-align: center;
+    margin: 10px 200px;
+}
+.description p{
+    text-align: justify;
+    color: black;
+    margin-top: 13px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.description h2{
+    font-size: 25px;
+    font-weight: lighter;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+}
+.description i{
+    font-size: small;
+    color: gray;
+}
+.camera-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 100px;
+    margin-bottom: 80px;
+    
+}
+
+.camera-container p{
+    text-align: center;
+}
+.camera-container img{
+    width: 117px
+}
+.tourDetails{
+    background-color: black;
+    text-align: center;
+    padding-top: 60px;
+}
+.tourDetails h2{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tourDetails i{
+    color: gray;
+    font-size: small;
+}
+.months{
+    background-color: white;
+    margin: 0px 300px;
+    padding-left: 0px;
+    align-items: center;
+
+}
+.months li{
+    color: gray;
+    text-align: left;
+    font-size: 13px;
+    height: 30px;
+    padding: 4px 10px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    align-items: center;
+}
+.months .text{
+    background-color: tomato;
+    color: white;
+    padding: 2px;
+    margin-left: 15px;
+}
+.months .num{
+    background-color: black;
+    color: white;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 500px;
+}
+.upcomingShows{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
