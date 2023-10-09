@@ -115,6 +115,7 @@ nav{
     background-color: black;
     text-align: center;
     padding-top: 60px;
+    height: 700px;
 }
 .tourDetails h2{
     color: white;
@@ -162,5 +163,30 @@ nav{
     margin: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.upcomingShows .places{
+    background-color: white;
+    width: 200px;
+}
+.upcomingShows img{
+    height: 150px;
+    width: 200px;
+}
+.upcomingShows h3{
+    font-size: 12px;
+    text-align: left;
+    padding: 10px;
+    font-weight:550;
+}
+.date{
+    color: gray;
+    font-size: 12px;
+    text-align: left;
+    padding-left:10px;
+}
+.text{
+    font-size: 13px;
+    text-align: justify;
+    padding: 10px;
 }
