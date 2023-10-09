@@ -53,7 +53,12 @@ console.log(arr.length)
 
 var arr2 = [34,76,768,213,8];
 var arr3 = []
+var arr4 = []
 for(var i = 0; i < arr2.length; i++){
     arr3[i] = arr2[i]*2
 }
+for(var item of arr2){
+    arr4.push(2*item)
+}
 console.log(arr3)
+console.log(arr4)
