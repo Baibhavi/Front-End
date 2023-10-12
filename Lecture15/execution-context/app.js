@@ -7,5 +7,8 @@ function fun(){
 }
 console.log(y)
 var x = 'hii'
+console.log(x)
 var y = 106
+console.log(p)
+console.log(y)
 fun()
