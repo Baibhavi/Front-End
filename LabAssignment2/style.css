@@ -129,7 +129,9 @@ nav{
 }
 .months{
     background-color: white;
-    margin: 0px 300px;
+    width: 636px;
+    margin-left: 286px ;
+    /* margin: 0px 300px; */
     padding-left: 0px;
     align-items: center;
 
@@ -160,7 +162,9 @@ nav{
     margin-left: 500px;
 }
 .upcomingShows{
-    margin: 40px;
+    margin-top: 25px;
+    margin-left: 280px;
+    margin-right: 280px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -177,16 +181,55 @@ nav{
     font-size: 12px;
     text-align: left;
     padding: 10px;
-    font-weight:550;
+    font-weight: 540;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 .date{
     color: gray;
     font-size: 12px;
     text-align: left;
-    padding-left:10px;
+    padding:0px 0px 0px 10px;
+    
 }
 .text{
     font-size: 13px;
     text-align: justify;
-    padding: 10px;
+    /* padding: 10px; */
+    padding:20px 10px 0px 10px;
+}
+.places button{
+    height: 30px;
+    width: 90px;
+    box-shadow: none;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    margin-right: 100px;
+    margin-left: 10px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    align-items: start;
+}
+.placeButton:hover{
+    color: black;
+    background-color: #B4B4B3;
+    border: gray;
+}
+.contact{
+    margin: 60px;
+}
+.contact h2{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    padding: 20px;
+    font-size: 25px;
+}
+.contact p{
+    text-align: center;
+    font-weight: lighter;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: smaller;
 }

@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, h1,h2, h3, h4, h5, p{
+    font-family: "Raleway",sans-serif;
+}
+body{
+    max-width: 1600px;
+    background-color: #EEEEEE;
+}
+nav{
+    z-index: 3;
+    width: 250px;
+    height: 800px;
+    background-color: white;
+    position: fixed;
+}
+
+nav img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 100px;
+    border-radius: 4px;
+}
+nav h3{
+    margin-left: 20px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+nav p{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: grey;
+    font-size: 13px;
+}
+.links{
+    padding-left: 20px;
+}
+.sideLinks .links{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 11px;
+    color: black;
+    font-size: 12px;
+    font-weight:570;
+}
+.sideLinks a{
+    color: black;
+    text-decoration: none;
+}
+#port a{
+    color: #4FA095;
+}
+.sideLinks :hover{
+    background-color: #D8D8D8;
+    display: block;
+}
+#port :hover{
+    color: black;
+}
+header{
+    margin-left: 260px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.portfolio h1{
+    padding-bottom: 40px;
+    font-size: 28px;
+}
+.topbar span{
+    font-size: 12px;
+    margin-right: 10px;
+}
+.topbar button{
+    height: 35px;
+    background-color: white;
+    border: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.topbar .black{
+    background-color: black;
+    color: white;
+}
+.topbar button :hover{
+    background-color: #D8D8D8;
+}
+.line{
+    background-color:#D8D8D8 ;
+    height: 4px;
+    margin-left: 260px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.pictures{
+    margin-left: 255px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pictures img{
+    height: 200px;
+    width: 300px;
+}
+.picContainer{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin-bottom: 13px;
+}
+.text{
+    padding: 10px;
+}
+.text h4{
+    font-size: 12px;
+    font-weight: light;
+    margin: 2px;
+}
+.text p{
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left:2px;
+    font-weight: 200;
+}
+.nums{
+    margin-top: 30px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+.nums a{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nums #firstNum{
+    color: white;
+    background-color: black;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nums :hover{
+    background-color: black;
+    color: white;
+
+}
+#firstNum :hover{
+    background-color: #D8D8D8;
+    color: black;
+}
+.mypics{
+    margin-left: 260px;
+    justify-content: space-between;
+}
+.mypics img{
+    height: 286px;
+    margin-right: 6px;
+}
+.aboutMe{
+    margin-left: 265px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aboutMe h3{
+    margin: 6px;
+    font-size: 16px;
+}
+.aboutMe p{
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.skills{
+    margin: 30px;
+    margin-left: 265px;
+}
+.skills h3{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+}
+.skills h5{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 6px;
+    margin-top: 10px;
+}
+.skills .percen{
+    margin: 6px;
+    margin-top: 10px;
+    height: 30px;
+    background-color: #D8D8D8;
+    color: white;
+}
+.percen p{
+    padding: 6px;
+    font-size: 13px;
+}
+.photography{
+    width: 95%;
+    height: 30px;
+    background-color: #5B5B5B;
+    text-align: center;
+}
+.webdesign{
+    width: 85%;
+    height: 30px;
+    background-color: #5B5B5B;
+    text-align: center;
+}
+.photoshop{
+    width: 80%;
+    height: 30px;
+    background-color: #5B5B5B;
+    text-align: center;
+}
+.resume{
+    margin-top: 20px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 150px;
+    background-color: #5B5B5B;
+}
+.resume p{
+    font-size: 12px;
+    text-align: center;
+    padding: 6px;
+    padding-top: 8px;
+    color: white;
+}
+.price{
+    margin-left: 265px;
+}
+.priceContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.price h2{
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 20px 6px;
+}
+.priceCard{
+    margin-top: 10px;
+    width: 300px;
+    border: 1px solid lightgray;
+}
+.priceCard h4{
+    height: 50px;
+    background-color: #5B5B5B;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.priceCard p{
+    height: 30px;
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+}
+.priceCard h5{
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    color: #5B5B5B;
+}
+.sign{
+    height: 40px;
+    padding: 10px;
+    padding-left: 100px;
+}
+.sign button{
+    border: 0px;
+    background-color: #A0E4CB;
+    padding: 11px;
+    margin-bottom: 10px;
+    color: white;
+}
+#pro{
+    background-color: #A0E4CB;
+}
+
