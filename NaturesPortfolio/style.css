@@ -237,6 +237,7 @@ header{
 }
 .price{
     margin-left: 265px;
+    margin-bottom: 30px;
 }
 .priceContainer{
     display: flex;
@@ -249,7 +250,6 @@ header{
     margin: 20px 6px;
 }
 .priceCard{
-    margin-top: 10px;
     width: 300px;
     border: 1px solid lightgray;
 }
@@ -289,5 +289,9 @@ header{
 }
 #pro{
     background-color: #A0E4CB;
+}
+.contact{
+    margin-left: 260px;
+    background-color: #D8D8D8;
 }
 
