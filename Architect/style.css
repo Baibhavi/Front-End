@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: sans-serif;
+  }
+  nav {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    box-shadow: 4px 4px 3px lightgray;
+    z-index: 2;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  nav div {
+    padding: 10px;
+    height: 20px;
+  }
+  
+  .options {
+    margin-left: 700px;
+  }
+  
+  .head {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  .head img{
+    width: 100vw;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .projectcard {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-block; /* Add this property to make it inline with the image */
+  }
+  
+.topLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: none; /* Reset the transform property */
+    background-color: black;
+    font-size: 13px;
+    padding: 6px;
+}
+.projectcard img{
+    height: 200px;
+}
+  
+  
